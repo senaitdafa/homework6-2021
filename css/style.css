@@ -13,12 +13,13 @@ header{
   background: #fff;
   border-bottom: 3px solid #50C7C7;
   display:flex;
-
 }
 
 /*Requirement 3*/
 .nav_links{
   /*Your code here again.*/
+  flex-direction:column;
+
 }
 
 
