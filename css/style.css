@@ -5,13 +5,14 @@ body{
   padding: 0;
   font-size: 16pt; 
   background-image: url("https://senaitdafa.github.io/homework6-2021/images/concrete_seamless.png");
+  font-family: 'Raleway', sans-serif;
 }
 
 /*Requirement 2*/
 header{
   background: #fff;
   border-bottom: 3px solid #50C7C7;
-  /*Your  code here again.*/
+  display:flex;
 
 }
 
