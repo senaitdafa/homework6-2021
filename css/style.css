@@ -37,8 +37,9 @@ header{
 .price{
     min-height: 500px;
     display:flex;
-    align-items:center;
-    justify-items: center;
+    flex-direction: column;
+    align-self: center;
+    justify-content: center;
 
  
 
@@ -80,6 +81,8 @@ header{
 .gallery{
   min-height: 600px;
   /*Your code here again.*/
+  display:flex;
+  flex-wrap: wrap;
 
 }
 
@@ -92,36 +95,58 @@ header{
 
 /*Requirement 9*/
 #logo{
-   /*Your code here.*/
+   animation-name: logo_grow;
+   animation-duration: 15s;
+   animation-timing-function: 1;
+
+   -webkit-animation-name: logo_grow;
+   -webkit-animation-duration: 15s;
+
+
  
 }
 
 /*Keyframes for animation*/
 @-webkit-keyframes logo_grow{
-  /*Your code here.*/
-
+  from {width: 25px;
+  opacity: 0;}
+  to { width: 420px;
+  opacity: 1;}
 }
 
 @keyframes logo_grow{
-  /*Your code here.*/
-
+  from {width: 25px;
+  opacity: 0;}
+  to { width: 420px;
+  opacity: 1;}
 } 
 
 @media screen and (min-width: 850px){
 
   /*Requirement 10*/
   header{
-    /*Your code here again.*/  
-  }
+    display:flex;
+    align-items:center; 
+    flex-direction:column;
+    justify-content: center;
+  
+    }
 
   /*Requirement 10*/
   .nav_links{
     /*Your code here again.*/  
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+  
   }
 
   /*Requirement 11*/
   .package {
-    /*Your code here again.*/
+
+  
+  
+    
   } 
 }
 
