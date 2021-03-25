@@ -13,12 +13,22 @@ header{
   background: #fff;
   border-bottom: 3px solid #50C7C7;
   display:flex;
+  align-items:center; 
+  flex-direction:column;
+  justify-content: center;
+
+
+
+
 }
 
 /*Requirement 3*/
 .nav_links{
   /*Your code here again.*/
+  display:flex;
   flex-direction:column;
+  justify-content: center;
+
 
 }
 
@@ -26,6 +36,14 @@ header{
 /*Requirement 4*/
 .price{
     min-height: 500px;
+    display:flex;
+    align-items:center;
+    justify-items: center;
+
+ 
+
+
+
     /*Your code here*/
     /*You must use flex.
     /*Don't forget to vertically and horizontally 
@@ -34,24 +52,28 @@ header{
 
 /*Requirement 5*/
 .package {
+  
   margin: 12px;
   background: #fff;
   border-radius: 7px;
   padding: 0 0 50px 0;
   /*Your code here.*/
   /*Take a look at flex-basis*/
+  flex-basis: 400px;
+  flex-wrap:wrap;
+  align-content: center;
+
 
 }
 
 /*Requirement 6*/
-/**  UNCOMMENT THIS CODE ONCE YOU
-/**  HAVE THE SELECTOR
-{
+
+.package > header{
   background: #288080;
   border: 2px solid #45ADAD;
   padding: 20px 0;
   border-radius: 7px 7px 0 0;
-}*/
+}
 
 
 /*Requirement 7*/
@@ -61,15 +83,12 @@ header{
 
 }
 
-/*Requirement 8*/
-/**  UNCOMMENT THIS CODE ONCE YOU
-/**  HAVE THE SELECTOR
-{
+.gallery > img{
   border: 10px #50C7C7 solid;
   margin: 10px;
   width: 300px;
 }
-*/
+
 
 /*Requirement 9*/
 #logo{
